@@ -1,0 +1,1 @@
+docker build . --tag=ubi-java:11
