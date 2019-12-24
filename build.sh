@@ -1,1 +1,3 @@
-docker build . --tag=ubi-java:11
+. setenv.sh
+
+docker build . --tag="$IMAGE_NAME:$IMAGE_VERSION"
