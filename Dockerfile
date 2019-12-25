@@ -9,3 +9,5 @@ RUN chmod g=u /etc/passwd
 ENV JAVA_OPTS=-Djava.security.egd=file:/dev/./urandom
 
 ENTRYPOINT ["/entrypoint.sh"]
+
+USER 1001
